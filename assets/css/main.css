@@ -1982,7 +1982,7 @@ input, select, textarea {
 		.icon.featured {
 			cursor: default;
 			display: block;
-			margin: 0 0 1.5em 0;
+			margin: 1em 0 1.5em 0;
 			opacity: 0.35;
 			text-align: center;
 		}
@@ -2307,7 +2307,7 @@ input, select, textarea {
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 1em 1.5em;
+		padding: 2em 1.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
