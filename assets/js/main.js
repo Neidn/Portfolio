@@ -94,3 +94,7 @@
 		}
 
 })(jQuery);
+
+function showSkillLabel() {
+	var tmp=document.getElementsByClassName()
+}
