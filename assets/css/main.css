@@ -256,6 +256,15 @@ blockquote {
 
 }
 
+/*Projects*/
+h2 > strong {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#git{
+    text-decoration: none;
+}
 @media screen and (max-width: 1280px) {
 
     .container {
