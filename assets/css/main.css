@@ -189,21 +189,6 @@ blockquote {
     background: #e7e6e6;
 }
 
-.skill_label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000;
-    border-radius: 30px 30px;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    opacity: .8;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #000000;
-    visibility: hidden;
-}
 
 .skill_image_container {
     text-align: center;
@@ -217,6 +202,35 @@ blockquote {
     box-shadow: 0 3px 6px rgba(0, 0, 0, .2), 0 3px 6px rgba(0, 0, 0, .2);
 }
 
+.skill_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 30px 30px;
+    width: 114px;
+    height: 116px;
+    padding: 10px;
+    opacity: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: all 300ms ease-in;
+}
+
+.skill_label:hover {
+    opacity: .8;
+}
+
+.skill_title {
+    display: block;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 /* Container */
 
