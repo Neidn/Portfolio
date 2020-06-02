@@ -11,6 +11,7 @@
 		$header = $('#header'),
 		$banner = $('#banner');
 
+
 	// Breakpoints.
 		breakpoints({
 			wide:      [ '1281px',  '1680px' ],
@@ -94,7 +95,3 @@
 		}
 
 })(jQuery);
-
-function showSkillLabel() {
-	var tmp=document.getElementsByClassName()
-}
